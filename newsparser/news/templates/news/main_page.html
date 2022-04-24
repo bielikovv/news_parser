@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+<script>
+    function moveToUrl(id_js) {
+        window.location.href = id_js;
+    }
+</script>
+
+
+<div class="container">
+    <div class="row">
+        <div id="pravda-card">
+
+            <div id="info-about-pravda-site">
+                <a href="https://www.pravda.com.ua/">
+                    <h3>УКРАИНСКАЯ ПРАВДА</h3>
+                </a>
+            </div>
+
+            {% for item in info_pravda %}
+            <div id="news-pravda-card" onclick="moveToUrl('{{ item.link }}')">
+                <div>
+                    {{ item.time }}
+                    {{ item.title|truncatewords:15 }}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+
+        <div id="nv-card">
+
+            <div id="info-about-nv-site">
+                <a href="https://nv.ua/">
+                    <h3>NV.UA</h3>
+                </a>
+            </div>
+
+            {% for item in info_nv %}
+            <div id="news-nv-card" onclick="moveToUrl('{{ item.link }}')">
+                <div>
+                    {{ item.time }}
+                    {{ item.title|truncatewords:15 }}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}

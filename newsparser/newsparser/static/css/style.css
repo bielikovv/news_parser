@@ -1,0 +1,96 @@
+html, body{
+    height: 100%;
+    background-attachment: fixed;
+}
+
+.navbar{
+    background-color: #4571ca;
+    margin-bottom: 60px;
+
+}
+a{
+    text-decoration: none;
+}
+
+#info-about-pravda-site{
+    background-color: #f3dc00;
+    width: 100%;
+    height: 50px;
+    color: #4571ca;
+    text-align: center;
+    padding-top: 5px;
+    box-shadow: 1px 1px 8px 1px rgba(0,0,0,0.54);
+    -webkit-box-shadow: 1px 1px 8px 1px rgba(0,0,0,0.54);
+
+}
+
+#info-about-nv-site{
+    background-color: #f3dc00;
+    width: 100%;
+    height: 50px;
+    color: #4571ca;
+    text-align: center;
+    padding-top: 5px;
+    box-shadow: 1px 1px 8px 1px rgba(0,0,0,0.54);
+    -webkit-box-shadow: 1px 1px 8px 1px rgba(0,0,0,0.54);
+}
+
+.navbar-brand{
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar-brand:hover{
+    color: #f3dc00;
+}
+
+#pravda-card{
+    width: 45%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #4571ca;
+    color: #f3dc00;
+    box-shadow: 1px 1px 8px 1px rgba(0,0,0,0.54);
+    -webkit-box-shadow: 1px 1px 8px 1px rgba(0,0,0,0.54);
+}
+#nv-card{
+    width: 45%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #4571ca;
+    color: #f3dc00;
+    box-shadow: 1px 1px 8px 1px rgba(0,0,0,0.54);
+    -webkit-box-shadow: 1px 1px 8px 1px rgba(0,0,0,0.54);
+}
+
+#news-pravda-card{
+    width: 96%;
+    box-shadow: 1px 1px 8px 1px rgba(0,0,0,0.54);
+    -webkit-box-shadow: 1px 1px 8px 1px rgba(0,0,0,0.54);
+    background-color: #ffffff;
+    color: #4571ca;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    -webkit-transition: 0.15s ease-out;
+}
+
+#news-pravda-card:hover{
+    -webkit-transform: scale(1.05);
+}
+
+#news-nv-card{
+    width: 96%;
+    box-shadow: 1px 1px 8px 1px rgba(0,0,0,0.54);
+    -webkit-box-shadow: 1px 1px 8px 1px rgba(0,0,0,0.54);
+    background-color: #ffffff;
+    color: #4571ca;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    -webkit-transition: 0.15s ease-out;
+}
+
+#news-nv-card:hover{
+    -webkit-transform: scale(1.05);
+}
